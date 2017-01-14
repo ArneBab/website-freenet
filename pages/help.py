@@ -65,7 +65,7 @@ class SupportSection(Section):
     def get_content(self):
         # License: GFDL (from old freenetproject.org website)
         return text(md(_("""
-If you need help installing Freenet for the first time, or have trouble using Freenet and can't find an answer to your problem in the [FAQ][faq_link] or in the [Knowledge Base][kb_link], please create a new discussion on our support forum.
+        <div style="position: absolute; margin-top: -5em;"><a name='faq'></a></div>If you need help installing Freenet for the first time, or have trouble using Freenet and can't find an answer to your problem in the [FAQ][faq_link] or in the [Knowledge Base][kb_link], please create a new discussion on our support forum.
 
 When writing your support request, please make sure you include a full description of the problem, your current version of Java, your operating system and current Freenet version.
 """) + "\n\n" + """
